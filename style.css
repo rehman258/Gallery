@@ -1,0 +1,58 @@
+#allphoto{
+	width: 1110px;
+	height: 825px;
+	margin: 0 auto;
+}
+#allphoto .chose{
+	padding-top: 10px;
+	width: 600px;
+	height:60px;
+}
+#allphoto .chose li {
+	display: inline-block;
+	margin: 0px 5px;
+	height: 30px;
+	width: auto;
+	padding-top: 10px; 
+	background-color: aqua;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: all .3s ease;
+}
+#allphoto .chose li:hover{
+	background-color:lightgreen;
+	color: white;
+}
+.photos{
+	width: 100%;
+	height: 790px;
+}
+.phts{
+	position: relative;
+	border-radius: 10px;
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 250px;
+	height: 250px;
+	background-color: grey;
+	display: inline-block;
+	overflow: hidden;
+}
+.photos .numb{
+	z-index: 1;
+	float: left;
+	position: absolute;
+	width: 50px;
+	height:35px;
+	border-radius: 10px;
+	background-color: red;
+	opacity: .5;
+	color: white;
+	text-align: center;
+	padding-top:15px;
+}
+.photos div img{
+    position: absolute;
+	height: 100%;
+	width: 100%;
+}
